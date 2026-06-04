@@ -173,6 +173,14 @@ h1 {
   line-height: 1.15;
 }
 
+.section-heading p:not(.eyebrow) {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--body);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -304,6 +312,10 @@ dd {
 
   .section-heading {
     text-align: left;
+  }
+
+  .section-heading p:not(.eyebrow) {
+    margin-left: 0;
   }
 
   .service-grid {
